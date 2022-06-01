@@ -1,0 +1,161 @@
+@media (min-width:769px) and (max-width:1024px){
+
+    /* css for header */
+    .header{
+        height: 70px;
+        background-color: white; 
+    }
+    .logo{
+        height: 70px;
+        font-size: 25px;
+        line-height: 70px;
+        width: 25%;
+        color: #f35713;
+    }
+    .navigation{
+        width: 65%;
+        height: 70px;
+    }
+    .nav-link{
+        height: 70px;
+        line-height: 70px;
+        color: #f35713;
+        font-size: 16px;
+    }
+
+    /* css for banner */
+    .banner{
+        height: 50vh;
+        background-position: 0 70px;
+    }
+    .banner_title{
+        font-size: 30px;
+    }
+    .cut{
+        transform: rotateZ(30deg);
+    }
+    .btn{
+        font-size: 13px;
+        padding: 13px 24px;
+        border-radius: 6px;
+    }
+
+    /* css for products */
+    .product{
+        width: 30%;
+        height: 450px;
+    }
+    .products_section{
+        column-gap: 5%;
+    }
+    .details:hover{
+        height: 450px;
+    }
+
+    /* css for new products */
+    .new_products{
+        height: 70vh;
+    }
+    .gallery{
+        height: 70vh;
+    }
+    
+    /* css for subscribe */
+    .subscribe_container{
+        height: 350px;
+    }
+    /* css for subscribe */
+    .footer_child{
+        height: 350px;
+    }
+    .footer_title{
+        font-size: 20px;
+    }
+    .quick_links{
+        font-size: 15px;
+    }
+    .icons{
+        flex-wrap: wrap;  
+    }
+}
+
+
+
+
+
+@media (min-width:1025px) and (max-width:1224px){
+
+    /* css for header */
+    .header{
+        height: 70px;
+        background-color: white; 
+    }
+    .logo{
+        height: 70px;
+        font-size: 25px;
+        line-height: 70px;
+        width: 30%;
+        color: #f35713;
+    }
+    .navigation{
+        width: 60%;
+        height: 70px;
+    }
+    .nav-link{
+        height: 70px;
+        line-height: 70px;
+        color: #f35713;
+    }
+
+    /* css for banner */
+    .banner{
+        height: 60vh;
+    }
+    .cut{
+        transform: rotateZ(25deg);
+    }
+    .banner_title{
+        font-size: 30px;
+    }
+    .cut{
+        transform: rotateZ(30deg);
+    }
+    .btn{
+        font-size: 13px;
+        padding: 13px 24px;
+        border-radius: 6px;
+    }
+
+    /* css for products */
+    .product{
+        width: 30%;
+        height: 450px;
+    }
+    .products_section{
+        column-gap: 5%;
+    }
+    .details:hover{
+        height: 450px;
+    }
+
+    /* css for new products */
+    .new_products{
+        height: 75vh;
+    }
+    .gallery{
+        height: 75vh;
+    }
+    /* css for subscribe */
+    .footer_child{
+        height: 350px;
+    }
+    .footer_title{
+        font-size: 25px;
+    }
+    .quick_links{
+        font-size: 18px;
+    }
+    .icons{
+        flex-wrap: wrap; 
+    }
+}
